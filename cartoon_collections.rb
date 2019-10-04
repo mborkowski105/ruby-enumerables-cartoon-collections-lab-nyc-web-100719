@@ -9,7 +9,7 @@ def summon_captain_planet(array)
     x.capitalize()
     chr = x.split("")
     chr.push("!")
-    chr.join("")
+    x = chr.join("")
   end
 end
 
