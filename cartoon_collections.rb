@@ -13,6 +13,7 @@ def summon_captain_planet(array)
   end
   
   puts array
+  puts "Hello!"
   return array
 end
 
