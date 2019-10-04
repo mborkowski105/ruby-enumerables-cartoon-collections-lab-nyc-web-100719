@@ -6,7 +6,11 @@ end
 
 def summon_captain_planet(array)
   array.each do |x|
-    x.capital
+    x.capitalize()
+    chr = x.split("")
+    chr.push("!")
+    chr.join("")
+  end
 end
 
 def long_planeteer_calls# code an argument here
