@@ -7,9 +7,6 @@ end
 def summon_captain_planet(array)
   array.each do |x|
     x.capitalize()
-    chr = x.split("")
-    chr.push("!")
-    x = chr.join("")
   end
   
   puts array
